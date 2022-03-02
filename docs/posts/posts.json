@@ -15,5 +15,22 @@
     "preview": {},
     "last_modified": "2022-03-02T20:41:31-03:00",
     "input_file": {}
+  },
+  {
+    "path": "posts/2022-03-02-teste-testando/",
+    "title": "Teste testando",
+    "description": "O teste que testei testando.",
+    "author": [
+      {
+        "name": "Eu mesmo",
+        "url": "https://drricardosouza.com.br"
+      }
+    ],
+    "date": "2022-03-02",
+    "categories": [],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-03-02T20:54:57-03:00",
+    "input_file": "teste-testando.knit.md"
   }
 ]

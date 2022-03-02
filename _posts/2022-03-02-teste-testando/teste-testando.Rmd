@@ -1,0 +1,23 @@
+---
+title: "Teste testando"
+description: |
+  O teste que testei testando.
+author:
+  - name: Eu mesmo
+    url: https://drricardosouza.com.br
+date: 2022-03-02
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+
