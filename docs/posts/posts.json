@@ -28,9 +28,9 @@
     ],
     "date": "2022-03-02",
     "categories": [],
-    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\nE se eu escrever qq coisa , tipo Pode CQD.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-02T20:54:57-03:00",
+    "last_modified": "2022-03-02T21:07:21-03:00",
     "input_file": "teste-testando.knit.md"
   }
 ]
