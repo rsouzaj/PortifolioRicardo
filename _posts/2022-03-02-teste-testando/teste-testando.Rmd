@@ -11,7 +11,6 @@ output:
     self_contained: false
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
@@ -21,5 +20,35 @@ Distill is a publication format for scientific and technical writing, native to 
 Learn more about using Distill at <https://rstudio.github.io/distill>.
 
 E se eu escrever qq coisa , tipo Pode CQD.
+
+`usethis::use_git()`
+
+Colocar link : [Site Ricardo](drricardosouza.com.br)
+
+## Listas
+
+### Lista não numerada:
+
+-   Eu
+    - Sou mais eu
+-   Nós
+-   A gente
+
+### Lista numerada:
+
+1.  Eu
+    a. Sou mais eu
+    a. Sou mermu
+2.  Nós
+3.  A gente
+
+## Imagens
+
+![](images/20190722_152459000_iOS.jpg)
+
+## Código em linha
+
+Hoje é dia `r format(Sys.Date(), "%d de %B de %Y")`.
+
 
 

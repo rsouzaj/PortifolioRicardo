@@ -1,0 +1,47 @@
+---
+title: "Novo Post"
+description: |
+  Vamos ver o que vai dar.
+author:
+  - name: Eu, de novo...
+    url: www.drricardosouza.com.br
+date: 2022-03-05
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+# Acesso dados da RAIS
+
+Utilizar o [datalake da iniciativa dos dados](https://basededados.org)
+
+```{r}
+library(bigrquery)
+library(dplyr)
+```
+
+
+```{r}
+bigrquery::bq_auth("rsouzaj@gmail.com")
+
+conexao <- bigrquery::dbConnect(
+  bigquery(),
+  project = "basedosdados",
+  dataset = "br_me_rais",
+  billing = "curso-r-343220"
+)
+
+ primeiras_cinco_linhas <-  head(select(tbl(conexao, "microdados_vinculos"), everything()), 5)
+  
+  knitr::kable(primeiras_cinco_linhas)
+```
+
